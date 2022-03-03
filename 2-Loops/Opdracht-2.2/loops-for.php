@@ -1,13 +1,12 @@
 <?php 
 
-    for($beginwaarde = 0; $beginwaarde <= 18; $beginwaarde++){
-        
-        if($beginwaarde =+ 18){
-            echo "<ul> ik ben $beginwaarde++ oud dus ik mag stemmen! </ul>";
-        }
-        else{
-            echo " <ul> ik ben $beginwaarde jaar, dus ik mag nog niet stemmen </ul>";
-        }
-        
-    }
+for ($x = 0; $x <= 18; $x++){
+
+if ($x <= 18){
+    echo "ik ben $x dus ik mag niet stemmen!";
+}
+else{
+    echo "ik ben $x++ dus ik mag stemmen!";
+}
+}
 ?>

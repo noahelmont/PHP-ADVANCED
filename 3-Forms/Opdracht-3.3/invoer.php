@@ -10,10 +10,10 @@
 
  <?php
 
-   echo $_GET['Artiest'] . "<br>";
-   echo $_GET['Titel'] . "<br>";
-   echo $_GET['Jaar_uitkomst'] . "<br>";
-   echo $_GET['Muzieksoort'] . "<br>";
+   echo $_GET['Artiest']."<br>";
+   echo $_GET['Titel']."<br>";
+   echo $_GET['Jaar_uitkomst']."<br>";
+   echo $_GET['Muzieksoort']."<br>";
 
  ?>
 

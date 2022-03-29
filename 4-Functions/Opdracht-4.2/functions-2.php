@@ -15,11 +15,11 @@ function rekenUit($nummer1, $nummer2, $nummer3){
     return $antwoord;
 }
 
-echo "als ik de getallen 4, 2 en 9 bij elkaar optel is de uitkomst " . rekenUit(4, 2 ,9) . '<br>';
+echo "als ik de getallen 4, 2 en 9 bij elkaar optel is de uitkomst".rekenUit(4, 2 ,9).'<br>';
 
-echo "als ik de getallen 1, 2 en 3 bij elkaar optel is de uitkomst " . rekenUit(1, 2 ,3) . '<br>';
+echo "als ik de getallen 1, 2 en 3 bij elkaar optel is de uitkomst".rekenUit(1, 2 ,3).'<br>';
 
-echo "als ik de getallen 40, 28 en 91 bij elkaar optel is de uitkomst " . rekenUit(40, 28 ,91);
+echo "als ik de getallen 40, 28 en 91 bij elkaar optel is de uitkomst".rekenUit(40, 28 ,91);
 
 ?>
 </body>

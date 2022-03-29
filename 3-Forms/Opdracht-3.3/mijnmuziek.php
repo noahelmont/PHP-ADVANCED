@@ -1,6 +1,4 @@
-<!-- invoer.php?Artiest=kanye+west&Titel=civil+war&Jaar_uitkomst=1865&Muzieksoort=piano -->
-
-<!DOCTYPE html>
+<!-- http://localhost/PHP-ADVANCED/3-Forms/Opdracht-3.3/invoer.php?Artiest=aloe+blacc&Titel=the+other+side&Jaar_uitkomst=2020&Muzieksoort=r%26b -->
 <html lang="en">
  <head>
      <meta charset="UTF-8">

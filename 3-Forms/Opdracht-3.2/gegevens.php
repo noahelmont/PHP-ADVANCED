@@ -10,9 +10,9 @@ echo $_POST['Klas']."<br>";
 
 echo $_POST['Adres']."<br>";
 
-echo $_POST['plaatsnaam,']."<br>";
+echo $_POST['Plaatsnaam,']."<br>";
 
-echo $_POST['favorieteband,']."<br>";
+echo $_POST['Favorieteband,']."<br>";
 
 $kleuren = ['red' , 'blue' , 'gray' , 'purple' , 'white'];
 foreach($kleuren as $kleur){ 

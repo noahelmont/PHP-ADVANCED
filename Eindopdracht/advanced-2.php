@@ -7,7 +7,7 @@
     <title></title>
 </head>
 
-<body style="background-color:<?php echo $_POST['achtergrondkleur']; ?>;">
+<body style="background-color:<?php echo $_POST['achtergrondkleur'];?>;">
 
     <?php
         function row($key, $value){
@@ -19,7 +19,7 @@
 
        $info = array("Naam"=>"Noah", "Leeftijd"=>"21","Woonplaats"=>"Amsterdam", "Klas"=>"1B", "Hobby"=>"Basketbal");
 
-    echo "<table style='border:  ".$_POST['tabel-border']."px solid' width='250' cellspacing='0'>";
+    echo "<table style='border:".$_POST['tabel-border']."px solid' width='250' cellspacing='4'>";
 
      foreach($info as $key =>$value){  
         row($key, $value);

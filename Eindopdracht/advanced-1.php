@@ -17,6 +17,7 @@
     <select id="achtergrond kleur" name="achtergrondkleur"></p>
 
         <?php 
+        
         $kleuren = ['red' , 'blue' , 'green' , 'black' , 'brown'];
         foreach($kleuren as $kleur){
             echo "<option value='$kleur' selected>$kleur</option>";
@@ -39,6 +40,7 @@
     </select></p>
 
 <br>
+
 <button type="submit">Verzend</button>
 
 </form>
